@@ -1,0 +1,9 @@
+string="github"
+print(string[0]) #prints g
+print(string[1:3])   # prints it
+print(string + "   rocks") #prints github   rocks 
+print(string)*2  #string repetition ; prints githubgithub
+print('s' in string) #membership operator in; returns true if a character is in the string; in this case returns False
+print("s" not in string) #returns True 
+print(r"\n") #prints \n which otherwise is a new line character . r/R supresses the actual meaning of escape characters
+print(" my name is %s and my age is %d" % ('student',12)) #prints my name is student and my age is 12
